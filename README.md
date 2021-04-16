@@ -11,3 +11,18 @@
 在此期间，未调整的小程序可能会在微信开发者工具收到“平台 getUserInfo 接口能力调整，请尽快适配”提醒，建议开发者尽快适配 wx.getUserInfo 接口回收场景。
 后续开发者可以使用 wx.getUserProfile 接口获取用户授权的个人信息。
 ```
+
+
+[2. 更新 API 开放 wx.chooseContact](https://developers.weixin.qq.com/miniprogram/dev/api/device/contact/wx.chooseContact.html)
+
+
+```
+拉起手机通讯录，选择联系人。
+
+v2.16.0 (2021-03-03) 更新的AIP版本
+
+很兼容机型=>小米系列 😨
+
+目前使用量比较小，待更新bug
+
+```
